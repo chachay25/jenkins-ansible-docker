@@ -3,8 +3,3 @@
   become: yes
   roles:
     - wartest
-
- - name: Install docker Python module
-      pip:
-        name: docker
-        executable: pip3
